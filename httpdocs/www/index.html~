@@ -39,7 +39,7 @@
 <!--[if lte IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>      
 <![endif]-->
-<script src="js/tweecool.min.js"></script>
+<script src="/assets/js/tweecool.min.js"></script>
 <script>
 $(document).ready(function() {
     $('#tweecool').tweecool({
@@ -52,14 +52,14 @@ $(document).ready(function() {
 });
 </script>
 
-<script src="js/jquery.colorbox.js"></script>
+<script src="/assets/js/jquery.colorbox.js"></script>
 <script>
 	$(document).ready(function(){
 	$(".inline").colorbox({inline:true, width:"53%"});
 	});
 </script>
-<script type="text/javascript" src="js/javascript.js"> </script>
-<script type="text/javascript" src="js/javascript2.js"> </script>
+<script type="text/javascript" src="/assets/js/javascript.js"> </script>
+<script type="text/javascript" src="/assets/js/javascript2.js"> </script>
 
 
 <script type="text/javascript">
@@ -297,7 +297,7 @@ function showHide(shID) {
 
 <a id="home"></a>
 
-<header class="nav-down">
+<header class="nav-down" style="display:block;">
 	<div class="navWrapper">
 	<div class="navbar1">
     	<ul id="top-menu">
@@ -340,21 +340,27 @@ function showHide(shID) {
        </div>
   </div>
 </header>
+<div>
 
 
+</div>
 
 
-<div class="bannerBkg">
+<div class="bannerBkg" >
 	<div class="bannerWrapper">
     	<div id="tentaclesHeader2" class="fadeIn5">
-           	    	<img src="images/drop.png" class="slideDown" alt="drop" style="margin-top:116px; margin-left:15px; position:absolute;"/>
-                    <img src="images/drop.png" class="slideDown2" alt="drop" style="margin-top:246px; margin-left:165px; position:absolute;"/>
-                    <img src="images/drop.png" class="slideDown3" alt="drop" style="margin-top:240px; margin-left:190px; position:absolute;"/>
-                    <img src="images/drop.png" class="slideDown4" alt="drop" style="margin-top:256px; margin-left:440px; position:absolute;"/>
-                    <img src="images/drop.png" class="slideDown5" alt="drop" style="margin-top:403px; margin-left:135px; position:absolute;"/>
+           	    	<img src="/assets/images/drop.png" class="slideDown" alt="drop" style="margin-top:116px; margin-left:15px; position:absolute;"/>
+                    <img src="/assets/images/drop.png" class="slideDown2" alt="drop" style="margin-top:246px; margin-left:165px; position:absolute;"/>
+                    <img src="/assets/images/drop.png" class="slideDown3" alt="drop" style="margin-top:240px; margin-left:190px; position:absolute;"/>
+                    <img src="/assets/images/drop.png" class="slideDown4" alt="drop" style="margin-top:256px; margin-left:440px; position:absolute;"/>
+                    <img src="/assets/images/drop.png" class="slideDown5" alt="drop" style="margin-top:403px; margin-left:135px; position:absolute;"/>
                     </div>
-    	<div class="bannerText">stand<br>out<br>
-    		<div class="bannerTextSmall">in a sea of ordinary, make sure your website is set apart from the competition</div>
+    	<div class="bannerText"><br><br>
+    	
+    		<div class="bannerTextSmall">
+    		</br>
+    		</br>
+    		</div>
 		</div>   
         <div id="bannerRight">
         	<div id="demo" style="margin-top:3px; margin-left:3px;"></div>
@@ -375,7 +381,7 @@ function showHide(shID) {
 <div class="servicesWrapper">
   <div class="servicesBox">
   		<div class="servicesWebDesign">
-    		<div class="servicesCircle"><img src="images/design_icon.png" alt="Website Design" id="designIcon"/></div>
+    		<div class="servicesCircle"><img src="/assets/images/computer.png" alt="Website Design" id="designIcon"/></div>
         	<div class="servicesTitle">WEBSITE DESIGN</div>
         	<div class="servicesDivide1"></div>
 			Each of my designs begins with a blank canvas which allows your content to guide the layout.
@@ -383,7 +389,7 @@ function showHide(shID) {
 	</div>
   <div class="servicesBox">
   		<div class="servicesDevelopment">
-    		<div class="servicesCircle"><img src="images/development_icon.png" alt="Development" id="developmentIcon"/></div>
+    		<div class="servicesCircle"><img src="/assets/images/browser.png" alt="Development" id="developmentIcon"/></div>
         	<div class="servicesTitle">DEVELOPMENT</div>
         	<div class="servicesDivide2"></div>
 			Responsive development will help make your website easily accessible across all devices.
@@ -391,7 +397,7 @@ function showHide(shID) {
 	</div>
   <div class="servicesBox">
   		<div class="servicesNewsletter">
-    		<div class="servicesCircle"><img src="images/newsletter_icon.png" alt="Newsletter Design" id="newsletterIcon"/></div>
+    		<div class="servicesCircle"><img src="/assets/images/wordpress.png" alt="Newsletter Design" id="newsletterIcon"/></div>
         	<div class="servicesTitle">NEWSLETTER DESIGN</div>
         	<div class="servicesDivide3"></div>
 			A matching newsletter is the perfect way to complement your website &amp; keep in contact.
@@ -399,7 +405,7 @@ function showHide(shID) {
 	</div>
 	<div class="servicesBoxLast">
     	<div class="servicesSocial">
-    		<div class="servicesCircle"><img src="images/social_icon.png" alt="Social Media" id="socialIcon"/></div>
+    		<a href="#"><div class="servicesCircle"><img src="/assets/images/user.png" alt="Social Media" id="socialIcon"/></div></a>
         	<div class="servicesTitle">SOCIAL MEDIA</div>
         	<div class="servicesDivide4"></div>
 			It's important to keep your brand consistent and recognizable across all platforms.
@@ -415,7 +421,7 @@ function showHide(shID) {
 <a id="about"></a>
 
 <div class="aboutPic">
-	<div class="aboutOctopus"><img src="images/octopus.png" width="355" height="417" alt="octopus"/></div>
+	<div class="servicesCircle"><img src="/assets/images/inag.png" width="355" height="417" alt="octopus"/></div>
   <div class="aboutText">
     	<h1>About Me</h1>
     	In the spring of 2003, during my first year of college at USU, I took a general education business course where we were assigned the task of building a webpage in Word. Thus began my love affair with design. After graduating I began working full time for a web design company. While I still enjoyed it, for the most part, I felt like something was missing. I wasn’t happy with the designs I was creating. They were “serious” and “corporate” and that just wasn’t me. When I made the move to freelance full time, I decided to let my quirky flag fly, so to speak. It may not be for everyone, but some people are going to love it.
@@ -424,11 +430,11 @@ function showHide(shID) {
 </div>
 
 <div class="twitterBkg">
-		<div class="twitterCircle"><img src="images/twitter_icon.png" alt="twitter" id="twitterIcon"/></div>
+		<div class="twitterCircle"><img src="/assets/images/twitter_icon.png" alt="twitter" id="twitterIcon"/></div>
 			<div class="taglineWrapper">
     			<div id="tweecool"></div>
                 <div class="twitterDivide"></div>
-                <div class="twitterLink"><a href="https://twitter.com/deniselchandler" target="_blank">Follow me on Twitter</a> <img src="images/arrow.png" width="12" height="12" alt="arrow"/></div>
+                <div class="twitterLink"><a href="https://twitter.com/deniselchandler" target="_blank">Follow me on Twitter</a> <img src="/assets/images/arrow.png" width="12" height="12" alt="arrow"/></div>
     		</div>
 </div>
 
@@ -441,7 +447,7 @@ function showHide(shID) {
 
 <a class='inline' href="#inline_content1">
 	<div class="yellowBox">
-    	<img src="images/jrichardhill.png" alt="J Richard Hill" class="grow"/><br>
+    	<img src="/assets/images/jrichardhill.png" alt="J Richard Hill" class="grow"/><br>
         J. RICHARD HILL<br>
         <div class="boxesInfo" style="color:#d76713">Web Design / Development</div>
 	</div>
@@ -449,7 +455,7 @@ function showHide(shID) {
 
 <a class='inline' href="#inline_content2">
 	<div class="ltGreenBox">
-    	<img src="images/briabby.png" alt="Briabby" class="grow"/><br>
+    	<img src="/assets/images/briabby.png" alt="Briabby" class="grow"/><br>
         BRIABBY<br>
         <div class="boxesInfo" style="color:#535C4F;">Web Design / Development / Newsletter / Social Media</div>
 	</div>
@@ -457,7 +463,7 @@ function showHide(shID) {
 
 <a class='inline' href="#inline_content3">
 	<div class="ltOrangeBox">
-    	<img src="images/houseofchildren.png" alt="House of Children" class="grow"/><br>
+    	<img src="/assets/images/houseofchildren.png" alt="House of Children" class="grow"/><br>
         HOUSE OF CHILDREN<br>
         <div class="boxesInfo" style="color:#fbd474">Web Design / Responsive Development</div>
 	</div>
@@ -465,7 +471,7 @@ function showHide(shID) {
 
 <a class='inline' href="#inline_content4">
 	<div class="dkOrangeBox">
-    	<img src="images/onegreenville.png" alt="One Greenville" class="grow"/><br>
+    	<img src="/assets/images/onegreenville.png" alt="One Greenville" class="grow"/><br>
         ONE GREENVILLE<br>
         <div class="boxesInfo" style="color:#e28100;">Web Design / Development</div>
 	</div>
@@ -473,7 +479,7 @@ function showHide(shID) {
 
 <a class='inline' href="#inline_content5">
 	<div class="ltOrangeBox">
-    	<img src="images/solid.png" alt="Solid Remodeling" class="grow"/><br>
+    	<img src="/assets/images/solid.png" alt="Solid Remodeling" class="grow"/><br>
         SOLID REMODELING<br>
         <div class="boxesInfo" style="color:#fbd474">Web Design / Responsive Development</div>
 	</div>
@@ -481,7 +487,7 @@ function showHide(shID) {
 
 <a class='inline' href="#inline_content6">
 	<div class="dkGreenBox">
-    	<img src="images/fannypack.png" alt="Team Fannypack" class="grow"/><br>
+    	<img src="/assets/images/fannypack.png" alt="Team Fannypack" class="grow"/><br>
         TEAM FANNYPACK<br>
         <div class="boxesInfo" style="color:#e6e8bf;">Web Design / Development</div>
 	</div>
@@ -489,7 +495,7 @@ function showHide(shID) {
 
 <a class='inline' href="#inline_content7">
 	<div class="yellowBox">
-    	<img src="images/gidwitz.png" alt="Adam Gidwitz" class="grow"/><br>
+    	<img src="/assets/images/gidwitz.png" alt="Adam Gidwitz" class="grow"/><br>
         ADAM GIDWITZ<br>
         <div class="boxesInfo" style="color:#d76713">Web Design / Responsive Development</div>
 	</div>
@@ -497,7 +503,7 @@ function showHide(shID) {
 
 <a class='inline' href="#inline_content8">
 	<div class="ltGreenBox">
-    	<img src="images/keerti.png" alt="Keerti Films" class="grow"/><br>
+    	<img src="/assets/images/keerti.png" alt="Keerti Films" class="grow"/><br>
         KEERTI FILMS<br>
         <div class="boxesInfo" style="color:#535C4F;">Web Design / Responsive Development</div>
 	</div>
@@ -509,7 +515,7 @@ function showHide(shID) {
 
 <a href="http://jrichardhill.com/" target="_blank">
 	<div class="yellowBox">
-    	<img src="images/jrichardhill.png" alt="J Richard Hill" class="grow"/><br>
+    	<img src="/assets/images/jrichardhill.png" alt="J Richard Hill" class="grow"/><br>
         J. RICHARD HILL<br>
         <div class="boxesInfo" style="color:#d76713">Web Design / Development</div>
 	</div>
@@ -517,7 +523,7 @@ function showHide(shID) {
 
 <a href="http://briabby.com" target="_blank">
 	<div class="ltGreenBox">
-    	<img src="images/briabby.png" alt="Briabby" class="grow"/><br>
+    	<img src="/assets/images/briabby.png" alt="Briabby" class="grow"/><br>
         BRIABBY<br>
         <div class="boxesInfo" style="color:#535C4F;">Web Design / Development / Newsletter / Social Media</div>
 	</div>
@@ -525,7 +531,7 @@ function showHide(shID) {
 
 <a href="http://houseofchildren.org/" target="_blank">
 	<div class="ltOrangeBox">
-    	<img src="images/houseofchildren.png" alt="House of Children" class="grow"/><br>
+    	<img src="/assets/images/houseofchildren.png" alt="House of Children" class="grow"/><br>
         HOUSE OF CHILDREN<br>
         <div class="boxesInfo" style="color:#fbd474">Web Design / Responsive Development</div>
 	</div>
@@ -533,7 +539,7 @@ function showHide(shID) {
 
 <a href="http://onegreenville.com/" target="_blank">
 	<div class="dkOrangeBox">
-    	<img src="images/onegreenville.png" alt="One Greenville" class="grow"/><br>
+    	<img src="/assets/images/onegreenville.png" alt="One Greenville" class="grow"/><br>
         ONE GREENVILLE<br>
         <div class="boxesInfo" style="color:#e28100;">Web Design / Development</div>
 	</div>
@@ -541,7 +547,7 @@ function showHide(shID) {
 
 <a href="http://teamfannypack.com" target="_blank">
 	<div class="dkGreenBox">
-    	<img src="images/fannypack.png" alt="Team Fannypack" class="grow"/><br>
+    	<img src="/assets/images/fannypack.png" alt="Team Fannypack" class="grow"/><br>
         TEAM FANNYPACK<br>
         <div class="boxesInfo" style="color:#e6e8bf;">Web Design / Development</div>
 	</div>
@@ -549,7 +555,7 @@ function showHide(shID) {
 
 <a href="http://www.keertifilms.ca/" target="_blank">
 	<div class="ltGreenBox">
-    	<img src="images/keerti.png" alt="Keerti Films" class="grow"/><br>
+    	<img src="/assets/images/keerti.png" alt="Keerti Films" class="grow"/><br>
         KEERTI FILMS<br>
         <div class="boxesInfo" style="color:#535C4F;">Web Design / Responsive Development</div>
 	</div>
@@ -568,7 +574,7 @@ function showHide(shID) {
 	<div class="storeWrapper">
     <div class="storeHeading">Fonts <span class="andFont">&amp;</span> Icon Sets</div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content9"><div class="store" style="background-image:url(images/store3.jpg);"><img src="images/stacked.png" alt="Stacked Font"/></div></a>
+    		<a class='inline' href="#inline_content9"><div class="store" style="background-image:url(/assets/images/store3.jpg);"><img src="/assets/images/stacked.png" alt="Stacked Font"/></div></a>
             <div class="storePadding">
             	Stacked is a fun and unique font that contains 264 characters including several with 2-3 letters stacked together. Display font. Comes in OTF and TTF format.<br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$10</span><a href="http://pul.ly/b/114361" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -576,7 +582,7 @@ function showHide(shID) {
     	</div>
         <div class="space1"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content15"><div class="store" style="background-image:url(images/store2.jpg);"><img src="images/skewed.png" alt="Skewed Icons"/></div></a>
+    		<a class='inline' href="#inline_content15"><div class="store" style="background-image:url(/assets/images/store2.jpg);"><img src="/assets/images/skewed.png" alt="Skewed Icons"/></div></a>
             <div class="storePadding">
             	Skewed Icons is a unique set of 240 vector icons that are perfect for those projects that don't take themselves too seriously. Files include: PNG, PSD, AI, EPS, &amp; PDF.  <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$15</span><a href="http://pul.ly/b/114358" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -585,7 +591,7 @@ function showHide(shID) {
         <div class="space1"></div>
         <div class="space2"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content18"><div class="store" style="background-image:url(images/store1.jpg);"><img src="images/dub.png" alt="DubBub Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content18"><div class="store" style="background-image:url(/assets/images/store1.jpg);"><img src="/assets/images/dub.png" alt="DubBub Mini Font"/></div></a>
             <div class="storePadding">
             	DubBub Mini is an extra-bold and curvy display font that includes 73 glyphs. It comes with two styles of letters that can be used individually or together. OTF &amp; TTF format. <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114331" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -594,7 +600,7 @@ function showHide(shID) {
         <div class="space1"></div>
         <div class="space3"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content17"><div class="store" style="background-image:url(images/store5.jpg);"><img src="images/gab.png" alt="Gab Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content17"><div class="store" style="background-image:url(/assets/images/store5.jpg);"><img src="/assets/images/gab.png" alt="Gab Mini Font"/></div></a>
             <div class="storePadding">
             	Gab Mini is the type of font that can add personality to a project with only a word. 73 glyphs that include upper and lower case letters. Display font. OTF and TTF format.  <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114346" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -603,7 +609,7 @@ function showHide(shID) {
         <div class="space1"></div>
         <div class="space2"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content20"><div class="store" style="background-image:url(images/store6.jpg);"><img src="images/quick.png" alt="Quick and Dirty Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content20"><div class="store" style="background-image:url(/assets/images/store6.jpg);"><img src="/assets/images/quick.png" alt="Quick and Dirty Mini Font"/></div></a>
             <div class="storePadding">
             	Quick and Dirty Mini is a cute, curly font with a lot of personality. There are 76 glyphs which include alternate and coupled versions. Display font. OTF and TTF format. <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114355" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -611,7 +617,7 @@ function showHide(shID) {
     	</div>
         <div class="space1"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content19"><div class="store" style="background-image:url(images/store4.jpg);"><img src="images/pleasantly.png" alt="Pleasantly Plump Icons"/></div></a>
+    		<a class='inline' href="#inline_content19"><div class="store" style="background-image:url(/assets/images/store4.jpg);"><img src="/assets/images/pleasantly.png" alt="Pleasantly Plump Icons"/></div></a>
             <div class="storePadding">
             	Pleasantly Plump Icons is a set of 260 vector icons that have a bold, curvaceous style that will look great on any screen. Files include: PNG, PSD, AI, EPS, &amp; PDF. <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$15</span><a href="http://pul.ly/b/114352" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -621,12 +627,12 @@ function showHide(shID) {
         <div class="space2"></div>
         <div class="space3"></div>
         
-    <a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;"><div class="storeFooter">See more of my fonts and icon sets &nbsp;<img src="images/arrow_down.png" width="14" height="14" alt="arrow"/></div></a>
+    <a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;"><div class="storeFooter">See more of my fonts and icon sets &nbsp;<img src="/assets/images/arrow_down.png" width="14" height="14" alt="arrow"/></div></a>
     
 		<div id="example" class="more">
 			
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content16"><div class="store" style="background-image:url(images/store7.jpg);"><img src="images/fizzle.png" alt="Fizzlebottom Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content16"><div class="store" style="background-image:url(/assets/images/store7.jpg);"><img src="/assets/images/fizzle.png" alt="Fizzlebottom Mini Font"/></div></a>
             <div class="storePadding">
             	Fizzlebottom Mini is a simple, hand-drawn font with wide and thin characters. It includes 73 glyphs that will add a fun touch to any project. Display font. OTF and TTF format. <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114337" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -634,7 +640,7 @@ function showHide(shID) {
     	</div>
         <div class="space1"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content14"><div class="store" style="background-image:url(images/store9.jpg);"><img src="images/torple.png" alt="Torple Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content14"><div class="store" style="background-image:url(/assets/images/store9.jpg);"><img src="/assets/images/torple.png" alt="Torple Mini Font"/></div></a>
             <div class="storePadding">
             	Torple Mini may be a thin, condensed font, but it has style to spare. 85 glyphs that include upper and lower case letters. Display font. Comes in OTF and TTF format. <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114367" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -643,7 +649,7 @@ function showHide(shID) {
         <div class="space1"></div>
         <div class="space2"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content11"><div class="store" style="background-image:url(images/store8.jpg);"><img src="images/end.png" alt="End to End Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content11"><div class="store" style="background-image:url(/assets/images/store8.jpg);"><img src="/assets/images/end.png" alt="End to End Mini Font"/></div></a>
             <div class="storePadding">
             	End To End Mini gives you the option of using the pre-designed version with a fun drop shadow or creating your own design using just the outline. Display font. OTF and TTF format.<br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114334" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -653,7 +659,7 @@ function showHide(shID) {
         <div class="space3"></div>
 		
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content12"><div class="store" style="background-image:url(images/store3.jpg);"><img src="images/peabo.png" alt="Peabo Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content12"><div class="store" style="background-image:url(/assets/images/store3.jpg);"><img src="/assets/images/peabo.png" alt="Peabo Mini Font"/></div></a>
             <div class="storePadding">
             	Peabo Mini is a versatile font that includes 69 glyphs which can be dressed up or dressed down. Display font. OTF and TTF format. <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114349" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -662,7 +668,7 @@ function showHide(shID) {
         <div class="space1"></div>
         <div class="space2"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content23"><div class="store" style="background-image:url(images/store1.jpg);"><img src="images/two.png" alt="Two and Two Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content23"><div class="store" style="background-image:url(/assets/images/store1.jpg);"><img src="/assets/images/two.png" alt="Two and Two Mini Font"/></div></a>
             <div class="storePadding">
             	Two and Two Mini is a unique font that includes 76 characters in two different styles: outline and filled. Display font. OTF and TTF format. <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114370" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -670,7 +676,7 @@ function showHide(shID) {
     	</div>
         <div class="space1"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content13"><div class="store" style="background-image:url(images/store2.jpg);"><img src="images/right.png" alt="The Right Stuff Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content13"><div class="store" style="background-image:url(/assets/images/store2.jpg);"><img src="/assets/images/right.png" alt="The Right Stuff Mini Font"/></div></a>
             <div class="storePadding">
             	The Right Stuff Mini is a thin, condensed display font that comes in two different styles: striped &amp; solid. It includes 73 glyphs. OTF and TTF format.  <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114364" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -680,7 +686,7 @@ function showHide(shID) {
         <div class="space2"></div>
         <div class="space3"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content22"><div class="store" style="background-image:url(images/store5.jpg);"><img src="images/scribble.png" alt="Forfty Scribble Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content22"><div class="store" style="background-image:url(/assets/images/store5.jpg);"><img src="/assets/images/scribble.png" alt="Forfty Scribble Mini Font"/></div></a>
             <div class="storePadding">
             	Forfty Scribble Mini is a variation of Forfty that fills in all of the letters with a fun scribble effect. 75 glyphs including both upper and lower case letters. Display font. OTF and TTF format. <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114343" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -688,7 +694,7 @@ function showHide(shID) {
     	</div>
         <div class="space1"></div>
 		<div class="storeLeft">
-    		<a class='inline' href="#inline_content21"><div class="store" style="background-image:url(images/store6.jpg);"><img src="images/forfty.png" alt="Forfty Mini Font"/></div></a>
+    		<a class='inline' href="#inline_content21"><div class="store" style="background-image:url(/assets/images/store6.jpg);"><img src="/assets/images/forfty.png" alt="Forfty Mini Font"/></div></a>
             <div class="storePadding">
             	Forfty Mini has a childlike quality that brings a sense of fun to any project. 75 glyphs including both upper and lower case letters. Display font. OTF and TTF format. <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$3</span><a href="http://pul.ly/b/114340" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -697,7 +703,7 @@ function showHide(shID) {
         <div class="space1"></div>
         <div class="space2"></div>
 		<div class="storeLeft">
-    		<div class="store" style="background-image:url(images/store4.jpg);"><img src="images/kit.png" alt=""/></div>
+    		<div class="store" style="background-image:url(/assets/images/store4.jpg);"><img src="/assets/images/kit.png" alt=""/></div>
             <div class="storePadding">
             	The whole kit 'n' caboodle: 2 icons sets, 1 font, and 11 mini fonts. A $73 value for only $40! <br>
                 <div class="buyNow"><span class="hvr-bounce-to-top">$40</span><a href="http://pul.ly/b/114328" target="_blank" class="hvr-bounce-to-bottom">Buy Now</a></div>
@@ -764,7 +770,7 @@ function showHide(shID) {
 <div style='display:none'>
 	<div id='inline_content1' style='padding:20px; background:#fff;'>
     	<div class="popUpLeft">
-    		<img src="images/work/jrichardhill_screenshot.jpg" alt="" />
+    		<img src="/assets/images/work/jrichardhill_screenshot.jpg" alt="" />
     	</div>
     	<div class="popUpRight">
     		<div class="popUpTitle">J. Richard Hill &amp; Co.</div>
@@ -781,7 +787,7 @@ function showHide(shID) {
 <div style='display:none'>
 	<div id='inline_content2' style='padding:20px; background:#fff;'>
     	<div class="popUpLeft">
-    		<img src="images/work/briabby_screenshot3.jpg" alt="" />
+    		<img src="/assets/images/work/briabby_screenshot3.jpg" alt="" />
     	</div>
     	<div class="popUpRight">
     		<div class="popUpTitle">Briabby</div>
@@ -800,7 +806,7 @@ Possibly my favorite project ever, but full disclosure: the client is my sister.
 <div style='display:none'>
 	<div id='inline_content3' style='padding:20px; background:#fff;'>
     	<div class="popUpLeft">
-    		<img src="images/work/houseofchildren_screenshot.jpg" alt="" />
+    		<img src="/assets/images/work/houseofchildren_screenshot.jpg" alt="" />
     	</div>
     	<div class="popUpRight">
     		<div class="popUpTitle">House of Children</div>
@@ -817,7 +823,7 @@ One of the main functions of this site was to help visitors develop a comfort le
 <div style='display:none'>
 	<div id='inline_content4' style='padding:20px; background:#fff;'>
     	<div class="popUpLeft">
-    		<img src="images/work/onegreenville_screenshot.jpg" alt="" />
+    		<img src="/assets/images/work/onegreenville_screenshot.jpg" alt="" />
     	</div>
     	<div class="popUpRight">
     		<div class="popUpTitle">One Greenville</div>
@@ -834,7 +840,7 @@ ONE is a development located in the heart of Greenville, South Carolina. Their g
 <div style='display:none'>
 	<div id='inline_content5' style='padding:20px; background:#fff;'>
     	<div class="popUpLeft">
-    		<img src="images/work/solid_screenshot.jpg" alt="" />
+    		<img src="/assets/images/work/solid_screenshot.jpg" alt="" />
     	</div>
     	<div class="popUpRight">
     		<div class="popUpTitle">Solid Remodeling</div>
@@ -851,7 +857,7 @@ There were two main functions required for this site: feature their remodeling p
 <div style='display:none'>
 	<div id='inline_content6' style='padding:20px; background:#fff;'>
     	<div class="popUpLeft">
-    		<img src="images/work/fannypack_screenshot.jpg" alt="" />
+    		<img src="/assets/images/work/fannypack_screenshot.jpg" alt="" />
     	</div>
     	<div class="popUpRight">
     		<div class="popUpTitle">Team Fannypack</div>
@@ -868,7 +874,7 @@ A personal project of mine. Mainly done just for fun, but also to get informatio
 <div style='display:none'>
 	<div id='inline_content7' style='padding:20px; background:#fff;'>
     	<div class="popUpLeft">
-    		<img src="images/work/gidwitz_screenshot.jpg" alt="" />
+    		<img src="/assets/images/work/gidwitz_screenshot.jpg" alt="" />
     	</div>
     	<div class="popUpRight">
     		<div class="popUpTitle">Adam Gidwitz</div>
@@ -885,7 +891,7 @@ Best-selling author Adam Gidwitz was looking for a redesign that would keep the 
 <div style='display:none'>
 	<div id='inline_content8' style='padding:20px; background:#fff;'>
     	<div class="popUpLeft">
-    		<img src="images/work/keerti_screenshot.jpg" alt="" />
+    		<img src="/assets/images/work/keerti_screenshot.jpg" alt="" />
     	</div>
     	<div class="popUpRight">
     		<div class="popUpTitle">Keerti Films</div>
@@ -902,7 +908,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content9' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/stacked_zoom.png" alt="Stacked Font" />
+    		<img src="/assets/images/store/stacked_zoom.png" alt="Stacked Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -912,7 +918,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content11' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/endtoend_zoom.png" alt="End To End Mini Font" />
+    		<img src="/assets/images/store/endtoend_zoom.png" alt="End To End Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -922,7 +928,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content12' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/peabo_zoom.png" alt="Peabo Mini Font" />
+    		<img src="/assets/images/store/peabo_zoom.png" alt="Peabo Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -932,7 +938,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content13' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/the_right_stuff_zoom.png" alt="The Right Stuff Mini Font" />
+    		<img src="/assets/images/store/the_right_stuff_zoom.png" alt="The Right Stuff Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -942,7 +948,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content14' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/torple_zoom.png" alt="Torple Mini Font" />
+    		<img src="/assets/images/store/torple_zoom.png" alt="Torple Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -952,7 +958,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content15' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/skewed_zoom.png" alt="Skewed Icons" />
+    		<img src="/assets/images/store/skewed_zoom.png" alt="Skewed Icons" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -962,7 +968,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content16' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/fizzlebottom_zoom.png" alt="Fizzlebottom Mini Font" />
+    		<img src="/assets/images/store/fizzlebottom_zoom.png" alt="Fizzlebottom Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -972,7 +978,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content17' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/gab_zoom.png" alt="Gab Mini Font" />
+    		<img src="/assets/images/store/gab_zoom.png" alt="Gab Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -982,7 +988,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content18' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/dubbub_zoom.png" alt="DubBub Mini Font" />
+    		<img src="/assets/images/store/dubbub_zoom.png" alt="DubBub Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -992,7 +998,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content19' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/pleasantlyplump_zoom.png" alt="Pleasantly Plump Icons" />
+    		<img src="/assets/images/store/pleasantlyplump_zoom.png" alt="Pleasantly Plump Icons" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -1002,7 +1008,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content20' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/quick_zoom.png" alt="Quick and Dirty Mini Font" />
+    		<img src="/assets/images/store/quick_zoom.png" alt="Quick and Dirty Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -1012,7 +1018,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content21' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/forfty_zoom.png" alt="Forfty Mini Font" />
+    		<img src="/assets/images/store/forfty_zoom.png" alt="Forfty Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -1022,7 +1028,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content22' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/scribble_zoom.png" alt="Forfty Scribble Mini Font" />
+    		<img src="/assets/images/store/scribble_zoom.png" alt="Forfty Scribble Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
@@ -1032,7 +1038,7 @@ The goal with this design was to create a blend of east and west. They wanted it
 <div style='display:none'>
 	<div id='inline_content23' class="popUpStore">
     	<div class="popUpFull">
-    		<img src="images/store/twoandtwo_zoom.png" alt="Two and Two Mini Font" />
+    		<img src="/assets/images/store/twoandtwo_zoom.png" alt="Two and Two Mini Font" />
     	</div>
         <div class="space"></div>
 	</div>
