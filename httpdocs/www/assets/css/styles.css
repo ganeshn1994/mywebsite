@@ -456,13 +456,14 @@ header {
 	padding-top:50px;
 	width:100%;
 }
-.twitterCircle {
+.facebook {
 	background-color:#EEEFE5;
 	width:112px;
 	height:96px;
 	text-align:center;
 	padding-top:16px;
 	margin:0px auto;
+	margin-left: 518px;
 	-moz-border-radius: 56px;
 	-webkit-border-radius: 56px;
 	border-radius: 56px;
@@ -483,7 +484,7 @@ header {
 	letter-spacing:1px;
 }
 .twitterDivide {
-	margin:30px auto 30px auto;
+	margin:111px auto 48px auto;
 	width:50px;
 	border-bottom:1px solid #BBC9B0;
 }
@@ -573,6 +574,7 @@ header {
 	font-size:13px;
 	font-weight:700;
 	line-height:16px;
+	margin-left: 119px;
 }
 .ltGreenBox img {
 	width:60%;
@@ -611,6 +613,7 @@ header {
 	font-size:13px;
 	font-weight:700;
 	line-height:16px;
+	margin-left: 54px;
 }
 .yellowBox img {
 	width:60%;
@@ -649,6 +652,7 @@ header {
 	font-size:13px;
 	font-weight:700;
 	line-height:16px;
+	margin-left: 104px;
 }
 .ltOrangeBox img {
 	width:60%;
@@ -945,7 +949,7 @@ header {
 /* Banner */
 
 .bannerBkg {
-	background-image:url(../images/banner-med.jpg);
+	background-image:url(/assets/images/banner-small.jpg);
 	background-position:top center;
 	color: #ffffff;
 	height: 480px;
@@ -957,6 +961,7 @@ header {
 	display:none;
 }
 .bannerText {
+	
 	font-family: 'MeetMeInBrooklyn-Regular';
 	font-size:90px;
 	line-height:82px;
@@ -1238,12 +1243,12 @@ header {
 /* Banner */
 
 .bannerBkg {
-	background-image:url(../images/banner-small.jpg);
+	background-image:url(/assets/images/small-banner1.jpg);
 	background-position:top right;
 	color: #ffffff;
 	height: 300px;
-	margin: 0px 0px 0px 0px;
-	padding: 70px 0 0 0;
+	margin: 14px -105px 0px 0px;
+	padding: 24px 0 0 0;
 	z-index:999999;
 }
 .bannerText {
@@ -1315,14 +1320,14 @@ header {
 
 
 .servicesWebDesign {
-	background-image:url(../images/design_icon.png);
+	background-image:url(/assets/images/computer.png);
 	background-size:67px 66px;
 	background-repeat:no-repeat;
 	background-position:top left;
 	padding-left:85px;
 }
 .servicesDevelopment {
-	background-image:url(../images/development_icon.png);
+	background-image:url(/assets/images/development_icon.png);
 	background-size:67px 66px;
 	background-repeat:no-repeat;
 	background-position:top left;
@@ -1337,6 +1342,14 @@ header {
 }
 .servicesSocial {
 	background-image:url(../images/social_icon.png);
+	background-size:67px 66px;
+	background-repeat:no-repeat;
+	background-position:top left;
+	padding-left:85px;
+}
+
+.serviceslogodesign {
+	background-image:url(../images/logo.png);
 	background-size:67px 66px;
 	background-repeat:no-repeat;
 	background-position:top left;
@@ -1372,6 +1385,16 @@ header {
 	margin-top:30px;
 	line-height:20px;
 }
+.serviceslogo {
+	width:94%;
+	float:none;
+	margin-right:3%;
+	margin-left:3%;
+	text-align:left;
+	font-size:14px;
+	margin-top:30px;
+	line-height:20px;
+}
 .servicesCircle {
 	display:none;
 }
@@ -1391,6 +1414,9 @@ header {
 	display:none;
 }
 .servicesDivide4 {
+	display:none;
+}
+.servicesDivide5 {
 	display:none;
 }
 
